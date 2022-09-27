@@ -38,7 +38,7 @@ function App() {
      {
       todoList.map((data,index)=>{
         return(
-          <Todolist key={index} data={data} handleRead={handleRead} newList={newList}/>
+          <Todolist key={index} data={data} handleRead={handleRead} />
         )
       })
      }

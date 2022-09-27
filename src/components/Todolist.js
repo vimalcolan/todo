@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Todolist = ({data,handleRead,newList}) => {
+const Todolist = ({data,handleRead}) => {
   return (
     <div>
         {
